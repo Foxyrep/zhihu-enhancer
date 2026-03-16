@@ -1,14 +1,15 @@
 // ==UserScript==
-// @name         知乎专栏时间显示增强
+// @name         知乎专栏时间IP显示增强
 // @namespace    http://tampermonkey.net/
 // @version      1.2
-// @description  在知乎专栏文章和回答页面显示创建时间和最新编辑时间
-// @author       You
+// @description  在知乎专栏文章和回答页面的最顶端，显示每篇专栏或回答的创建时间和最新编辑时间以及IP属地
+// @author       Foxyrep 15319350358@163.com with Claude Code
 // @match        https://zhuanlan.zhihu.com/p/*
 // @match        https://www.zhihu.com/question/*/answer/*
 // @match        https://www.zhihu.com/question/*
 // @grant        none
 // @run-at       document-end
+// @license      MIT
 // ==/UserScript==
 
 (function() {
